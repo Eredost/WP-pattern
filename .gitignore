@@ -1,0 +1,7 @@
+# Wordpress config file
+wp-config.php
+
+# Wordpress folders
+/wp
+/vendor
+/content
