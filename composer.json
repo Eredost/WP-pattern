@@ -16,9 +16,11 @@
     ],
     "require": {
         "johnpbloch/wordpress": "*",
-        "wpackagist-theme/twentytwenty": "*",
-        "wpackagist-plugin/what-the-file": "^1.5",
-        "wpackagist-plugin/simply-show-hooks": "^1.2"
+        "wpackagist-theme/twentytwenty": "*"
+    },
+    "require-dev": {
+        "wpackagist-plugin/simply-show-hooks": "^1.2",
+        "wpackagist-plugin/query-monitor":"3.5.2"
     },
     "extra": {
         "wordpress-install-dir": "wp",

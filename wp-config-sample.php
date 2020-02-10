@@ -71,7 +71,7 @@ define('WP_CONTENT_DIR', dirname( ABSPATH ) . '/content');
 /**
  * For developers: WordPress debugging mode.
  *
- * Change this to true to enable the display of notices during development.
+ * Change this to development to enable the display of notices during development.
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  *
@@ -80,7 +80,7 @@ define('WP_CONTENT_DIR', dirname( ABSPATH ) . '/content');
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('ENVIRONMENT', 'development');
+define('ENVIRONMENT', 'production');
 
 if ( defined( 'ENVIRONMENT' ) ) {
     if ( ENVIRONMENT === 'development' ) {
